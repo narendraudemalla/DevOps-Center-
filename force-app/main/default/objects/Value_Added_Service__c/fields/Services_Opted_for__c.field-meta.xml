@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Opted_for__c</fullName>
+    <externalId>false</externalId>
+    <label>Services Opted for</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Expo</fullName>
+                <default>false</default>
+                <label>Expo</label>
+            </value>
+            <value>
+                <fullName>Financial Advisory (This is for Individuals)</fullName>
+                <default>false</default>
+                <label>Financial Advisory (This is for Individuals)</label>
+            </value>
+            <value>
+                <fullName>Industry Webinars (EdTech, Manufacturing, pharm)</fullName>
+                <default>false</default>
+                <label>Industry Webinars (EdTech, Manufacturing, pharm)</label>
+            </value>
+            <value>
+                <fullName>Market Analysis (Real Estate, IT)</fullName>
+                <default>false</default>
+                <label>Market Analysis (Real Estate, IT)</label>
+            </value>
+            <value>
+                <fullName>Portfolio Management</fullName>
+                <default>false</default>
+                <label>Portfolio Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
